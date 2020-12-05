@@ -11,7 +11,6 @@ function Footer(props) {
       Chun Poon
     </a>
   )
-  console.log(props)
   return (
     <footer
       className={`
