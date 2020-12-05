@@ -1,5 +1,7 @@
 import Home from './Home';
+import Avocado from './Avocado';
 
 export {
-  Home
+  Home,
+  Avocado
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Home } from './routes';
+import { Home, Avocado } from './routes';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route path="/avocado" component={Avocado} />
         </Switch>
       </BrowserRouter>
     </>

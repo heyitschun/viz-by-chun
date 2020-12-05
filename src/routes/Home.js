@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Footer from '../components/footer';
 
 function Home() {
   const URL = "http://heyitschun.com";
